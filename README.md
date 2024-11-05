@@ -16,3 +16,13 @@ Aplicamos las propiedades aprendidas para dicho formulario
 </form>
 ```
 
+## Creamos la estructura del HTML y arrancamos con el primer formato de CSS
+
+Algunas de las etiquetas utilizadas
+```sh
+<form action=""></form>
+<label for=""></label>
+<input type="text">
+<fieldset></fieldset>
+<legend></legend>
+```

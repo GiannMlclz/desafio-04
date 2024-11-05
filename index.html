@@ -1,67 +1,129 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aficiliación</title>
-  </head>
-  <body>
 
-  <h1>Vení al Gym!💪</h1>  
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aficiliación</title>
+</head>
+
+<body>
+
+  <h1>Vení al Gym!💪</h1>
 
   <fieldset>
-<form action="" method="POST">
-  <legend>🙋‍♂️Datos Personales👀</legend>
-  <div>
-    <label for="">Nombre:*</label>
-    <input type="name" name="Nombre" required>
-</div>
+    <form action="#" method="POST">
 
+      <legend>🙋‍♂️Datos Personales👀</legend>
+      <div>
+        <label for="">Nombre:*</label>
+        <input type="name" name="Nombre" required>
+      </div>
+
+      <div>
+        <label for="">Apellido:*</label>
+        <input type="text" name="Apellido" required>
+      </div>
+
+      <div>
+        <label for="">Documento:*</label>
+        <input type="number" name="Documento" required>
+      </div>
+
+      <div>
+
+        <label for="">Nacionalidad:*</label>
+      
+        <select name="Seleccionar" id="Nacionalidad" required>
+          <option value="">-Seleccionar-</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Brasilera">Brasilera</option>
+          <option value="Uruguaya">Uruguaya</option>
+          <option value="Otra">Otra</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="">Contanos un poco de vos...</label>
+        <textarea name="" id=""></textarea>
+      </div>
+
+      <div>
+        <label for="">Sexo:*</label>
+      </div>
+        <input type="radio" name="genero" value="Femenino">
+        <label for="">Femenino</label>
+        <input type="radio" name="genero" value="Masculino">
+        <label for="">Masculino</label>
+        <input type="radio" name="genero" value="Otro">
+        <label for="">Otro</label>
+
+  </fieldset>
+
+    <fieldset>
+
+      <legend>📱Datos de celular📩</legend>
+
+      <div>
+        <label for="">Teléfono:*</label>
+        <input type="number" name="telefono" required placeholder="Ej: Código área y número">
+      </div>
+
+      <div>
+        <label for="">Dirección de correo electrónico:*</label>
+        <input type="email" required placeholder="Ej: mail@gmail.com">
+      </div>
+
+    </fieldset>
+
+  <fieldset>
+    <legend>🚴🏻‍♂️Actividades🤸</legend>
+
+<p>Indique que actividades les interesan:</p>
+
+<p>Sede Palermo:</p>
+
+
+<input type="checkbox">
+  <label for="">Básquet</label>
+  <input type="checkbox">
+  <label for="">Boxeo</label>
+  <input type="checkbox">
+  <label for="">Fútbol</label>
+  <input type="checkbox">
+  <label for="">Tenis</label>
+  
+  <p>Sede Rosario:</p>
+  
+  <input type="checkbox">
+    <label for="">Básquet</label>
+    <input type="checkbox">
+    <label for="">Fútbol</label>
+    <input type="checkbox">
+    <label for="">Rugby</label>
+    <input type="checkbox">
+    <label for="">Vóley</label>
+
+  </fieldset>
 <div>
-    <label for="">Apellido:*</label>
-    <input type="text" name="Apellido" required>
+  <input type="checkbox" required>
+  <label for="">Acepto las condiciones*</label>
 </div>
+  <input type="checkbox">
+  <label for="">Deseo recibir novedades</label>
 
-<div>
-    <label for="">Documento:*</label>
-    <input type="number" name="Documento" required>
-</div>
+  <p>*:campo obligatorio.</p>
 
-<div>
+<button type="submit">Iniciar Aficiliación</button>
+<button type="reset">Restablecer</button>
 
-    <label for="">Nacionalidad:*</label>
-    <select name="Seleccionar" id="Nacionalidad">
-      <option value="">-Seleccionar-</option>
-      <option value="Argentina">Argentina</option>
-      <option value="Brasilera">Brasilera</option>
-      <option value="Uruguaya">Uruguaya</option>
-      <option value="Otra">Otra</option>
-    </select>
-</div>
-
-<div>
-  <label for="">Contanos un poco de vos...</label>
-  <textarea name="" id=""></textarea>
-</div>
-
-<div id="Genero">
- <label for="">Sexo:*</label>
-<input type="radio" name="genero" value="Femenino">
-<label for="">Femenino</label>
-<input type="radio" name="genero" value="Masculino">
-<label for="">Masculino</label>
-<input type="radio" name="genero" value="Otro">
-<label for="">Otro</label>
-</div>
-</fieldset>
 
 </form>
- 
 
 
 
+  <script type="module" src="/main.js"></script>
+</body>
 
-    <script type="module" src="/main.js"></script>
-  </body>
 </html>
