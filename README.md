@@ -26,3 +26,10 @@ Algunas de las etiquetas utilizadas
 <fieldset></fieldset>
 <legend></legend>
 ```
+
+## Dirección de datos (backcend) para el formulario
+
+```sh
+<form action="https://postman-echo.com/post" method="POST" target="_blank">
+```
+
