@@ -33,3 +33,14 @@ Algunas de las etiquetas utilizadas
 <form action="https://postman-echo.com/post" method="POST" target="_blank">
 ```
 
+### Verificamos si el codigo del formulario si esta correcto 
+
+```sh
+https://validator.w3.org/
+```
+
+### link a github y a Netlify
+
+```sh
+https://github.com/GiannMlclz/desafio-04-estilo-1
+```

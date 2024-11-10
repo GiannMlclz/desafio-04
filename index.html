@@ -4,9 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aficiliación</title>
 </head>
@@ -15,29 +12,30 @@
 
   <h1 class="borde-titulo">Vení al Gym!💪🏻</h1>
 
-  <fieldset>
-    <legend>🙋‍♂️Datos Personales👀</legend>
-    <form action="https://postman-echo.com/post" method="POST" target="_blank">
+
+  <form action="https://postman-echo.com/post" method="post" target="_blank">
+    <fieldset>
+      <legend>🙋‍♂️Datos Personales👀</legend>
+
       <div id="bloque-personal">
-        
-        <div style="text-align: center;" class= "margen-casilla">
-          <label for="Nombre">Nombre:*</label><br>
-          <input type="name" name="Nombre" class="casilla right" required>
+        <div style="text-align: center;" class="margen-casilla">
+          <label>Nombre:*</label><br>
+          <input type="text" name="Nombre" class="casilla right" required>
         </div>
         <div style="text-align: center;" class="margen-casilla">
-          <label for="Apellido">Apellido:*</label><br>
+          <label>Apellido:*</label><br>
           <input type="text" name="Apellido" class="casilla right" required>
         </div>
 
         <div style="text-align: center;" class="margen-casilla">
-          <label for="Documento">Documento:*</label><br>
+          <label>Documento:*</label><br>
           <input type="number" name="Documento" class="casilla right" required>
         </div>
 
         <div style="text-align: center;" class="margen-casilla">
-          <label class="margen-casilla" for="Nacionalidad">Nacionalidad:*</label><br>
+          <label class="margen-casilla">Nacionalidad:*</label><br>
 
-          <select name="Seleccionar" id="Nacionalidad" class="casilla" required>
+          <select name="Seleccionar" class="casilla" required>
             <option value="">-Seleccionar-</option>
             <option value="Argentina">Argentina</option>
             <option value="Brasilera">Brasilera</option>
@@ -47,95 +45,91 @@
         </div>
 
         <div style="text-align: center;" class="margen-casilla">
-          <label for="Comentarios">Contanos un poco de vos...</label><br>
-          <textarea name="" rows="10" cols="60"></textarea>
+          <label>Contanos un poco de vos...</label><br>
+          <textarea name="Comentarios" rows="10" cols="60"></textarea>
         </div>
 
         <div style="text-align: center;">
-          <label for="Sexo">Sexo:*</label><br><br>
-          <input type="radio" name="genero" value="Femenino">
-          <label for="">Femenino</label>
-          <input type="radio" name="genero" value="Masculino">
-          <label for="">Masculino</label>
-          <input type="radio" name="genero" value="Otro">
-          <label for="">Otro</label>
+          <p>Sexo*</p><br><br>
+          <input type="radio" name="genero" id="Femenino" value="Femenino">
+          <label for="Femenino">Femenino</label>
+          <input type="radio" name="genero" id="Masculino" value="Masculino">
+          <label for="Masculino">Masculino</label>
+          <input type="radio" name="genero" id="Otro" value="Otro">
+          <label for="Otro">Otro</label>
         </div>
+      </div>
+    </fieldset>
 
-  </fieldset>
-  </div>
+    <hr class="puntos">
 
-  <hr class="puntos">
+    <fieldset>
+      <legend>📱Datos de celular📩</legend>
 
-  <fieldset >
+      <div style="text-align: center;" class="margen-casilla">
+        <label>Teléfono:*</label><br>
+        <input type="number" name="telefono" class="casilla right" required placeholder="Código área y número">
+      </div>
 
-    <legend>📱Datos de celular📩</legend>
+      <div style="text-align: center;" class="margen-casilla">
+        <label>Dirección de correo electrónico:*</label><br>
+        <input type="email" class="casilla right" required placeholder="Ej: mail@gmail.com">
+      </div>
+    </fieldset>
 
-    <div style="text-align: center;" class="margen-casilla">
-      <label for="telefono">Teléfono:*</label><br>
-      <input type="number" name="telefono" class="casilla right" required placeholder="Código área y número">
+    <hr class="puntos">
+
+    <fieldset class="margin-bottom">
+      <legend id="actividades">🚴🏻‍♂️Actividades🤸</legend>
+
+      <div style="text-align: left;">
+
+        <p>Indique que actividades les interesan:</p>
+
+        <p>Sede Palermo:</p>
+
+
+        <input type="checkbox">
+        <label>Básquet</label>
+        <input type="checkbox">
+        <label>Boxeo</label>
+        <input type="checkbox">
+        <label>Fútbol</label>
+        <input type="checkbox">
+        <label>Tenis</label>
+
+        <p>Sede Rosario:</p>
+
+        <input type="checkbox">
+        <label>Básquet</label>
+        <input type="checkbox">
+        <label>Fútbol</label>
+        <input type="checkbox">
+        <label>Rugby</label>
+        <input type="checkbox">
+        <label>Vóley</label>
+
+      </div>
+    </fieldset>
+
+    <div class=boxes>
+      <input type="checkbox" name="condiciones" value="condiciones" required>
+      <label>Acepto las condiciones*</label>
     </div>
 
-    <div style="text-align: center;" class="margen-casilla">
-      <label for="Email">Dirección de correo electrónico:*</label><br>
-      <input type="email" class="casilla right" required placeholder="Ej: mail@gmail.com">
+    <div class=boxes>
+      <input type="checkbox" name="novedades" value="novedades">
+      <label>Deseo recibir novedades</label>
     </div>
 
-  </fieldset>
+    <p id="obligatorio">*:campo obligatorio.</p>
 
-  <hr class="puntos">
+    <div class="boton" style="text-align: center;">
 
-  <fieldset class="margin-bottom">
-    <legend>🚴🏻‍♂️Actividades🤸</legend>
+      <button type="submit">Iniciar Aficiliación</button>
+      <button type="reset">Restablecer</button>
 
-    <div style="text-align: left;">
-
-    <p>Indique que actividades les interesan:</p>
-
-    <p>Sede Palermo:</p>
-
-
-      <input type="checkbox">
-      <label for="">Básquet</label>
-      <input type="checkbox">
-      <label for="">Boxeo</label>
-      <input type="checkbox">
-      <label for="">Fútbol</label>
-      <input type="checkbox">
-      <label for="">Tenis</label>
-      
-      <p>Sede Rosario:</p>
-      
-      <input type="checkbox">
-      <label for="">Básquet</label>
-      <input type="checkbox">
-      <label for="">Fútbol</label>
-      <input type="checkbox">
-      <label for="">Rugby</label>
-      <input type="checkbox">
-      <label for="">Vóley</label>
-      
     </div>
-  </fieldset>
-
-  <div class=boxes>
-    <input type="checkbox" name="condiciones" value="condiciones" required>
-    <label for="">Acepto las condiciones*</label>
-  </div>
-
-  <div class=boxes>
-    <input type="checkbox" name="novedades" value="novedades">
-    <label for="">Deseo recibir novedades</label>
-  </div>
-
-  <p id="obligatorio">*:campo obligatorio.</p>
-
-  <div class="boton" style="text-align: center;">
-
-    <button type="submit">Iniciar Aficiliación</button>
-    <button type="reset">Restablecer</button>
-    
-  </div>
-
   </form>
 
 

@@ -1,0 +1,25 @@
+/* @font-face {
+    font-family: retro;
+    src: url(fuentes/Retrowave\ demo.otf);
+}
+
+html {
+    background-image: url(imagenes/fondo-retro.webp); 
+    background-position: center;
+}
+
+h1 {
+    font-family: retro;
+    text-align: center;
+    font-size: 100px;
+    color:#d62828;
+}
+
+fieldset {
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 30% 50px 30%;
+    padding: 20px 40px 40px 40px;
+    background-color: linear-gradient(#d62828 #003049 #F77F00 #FCBF49 #EAE2B7);
+
+} */
