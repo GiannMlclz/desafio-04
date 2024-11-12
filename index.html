@@ -5,9 +5,11 @@
   <meta charset="UTF-8" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Racing+Sans+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
   <link rel="stylesheet" href="estilos-retro.css">
+  <link rel="stylesheet" href="estilos-urbano.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aficiliación</title>
 </head>
@@ -54,20 +56,20 @@
         </div>
 
         <div style="text-align: center;">
-          <p>Sexo*</p><br><br>
-          <input type="radio" name="genero" id="Femenino" value="Femenino">
+          <p>Sexo*</p><br>
+          <input class="check" type="radio" name="genero" id="Femenino" value="Femenino">
           <label for="Femenino">Femenino</label>
-          <input type="radio" name="genero" id="Masculino" value="Masculino">
+          <input class="check" type="radio" name="genero" id="Masculino" value="Masculino">
           <label for="Masculino">Masculino</label>
-          <input type="radio" name="genero" id="Otro" value="Otro">
+          <input class="check" type="radio" name="genero" id="Otro" value="Otro">
           <label for="Otro">Otro</label>
         </div>
       </div>
     </fieldset>
 
-    <hr class="puntos">
+    <hr class="puntos hr-derecha">
 
-    <fieldset>
+    <fieldset id="datos-celular">
       <legend>📱Datos de celular📩</legend>
 
       <div style="text-align: center;" class="margen-casilla">
@@ -81,10 +83,10 @@
       </div>
     </fieldset>
 
-    <hr class="puntos">
+    <hr class="puntos hr-izquierda">
 
-    <fieldset class="margin-bottom">
-      <legend id="actividades">🚴🏻‍♂️Actividades🤸</legend>
+    <fieldset id="actividades">
+      <legend>🚴🏻‍♂️Actividades🤸</legend>
 
       <div style="text-align: left;">
 
@@ -93,24 +95,24 @@
         <p>Sede Palermo:</p>
 
 
-        <input type="checkbox">
+        <input class="check" type="checkbox">
         <label>Básquet</label>
-        <input type="checkbox">
+        <input class="check" type="checkbox">
         <label>Boxeo</label>
-        <input type="checkbox">
+        <input class="check" type="checkbox">
         <label>Fútbol</label>
-        <input type="checkbox">
+        <input class="check" type="checkbox">
         <label>Tenis</label>
 
         <p>Sede Rosario:</p>
 
-        <input type="checkbox">
+        <input class="check" type="checkbox">
         <label>Básquet</label>
-        <input type="checkbox">
+        <input class="check" type="checkbox">
         <label>Fútbol</label>
-        <input type="checkbox">
+        <input class="check" type="checkbox">
         <label>Rugby</label>
-        <input type="checkbox">
+        <input class="check" type="checkbox">
         <label>Vóley</label>
 
       </div>

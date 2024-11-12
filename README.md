@@ -45,3 +45,5 @@ https://validator.w3.org/
 https://github.com/GiannMlclz/desafio-04-estilo-1
 ```
 
+### Finalizados los diseños restantes subimos a github
+

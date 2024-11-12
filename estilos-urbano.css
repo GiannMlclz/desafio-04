@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(#212529, #343a40, #495057, #6c757d);
+
+}
+
+
+h1 {
+    background: linear-gradient( 45deg, #10002b, #3c096c, #7b2cbf, #c77dff);
+    color: black;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    font-family: "Racing Sans One", sans-serif;
+    text-align: center;
+    height: 80px;
+    text-shadow: 2px 2px 2px white;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+
+
+fieldset {
+    border: 2px solid #3c096c;
+    background-image: url(imagenes/pesa-gym.jpg);
+    border-radius: 5px;
+    font-family: "Jockey One", sans-serif;
+    font-size: 30px;
+    color: #916ab1;
+    text-shadow: 4px 2px 2px black;
+    margin: 10px 50% 50px 0px;
+    padding: 20px 40px 40px 40px;
+    
+}
+
+.hr-izquierda {
+    width: 700px;
+    height: 10px;
+    margin-left: 52%;
+    border-radius: 50px;
+    background-color: #10002b;
+    border: 4px solid #af46ff;
+    display: flexbox;
+}
+
+.hr-derecha {
+    width: 700px;
+    height: 10px;
+    border-radius: 50px;
+    margin-right: 52%;
+    background-color: #10002b;
+    border: 4px solid #af46ff;
+    display: flexbox;  
+}
+
+#datos-celular {
+    background-image: url(imagenes/grafitti-negro.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0px 50px 50%;
+    padding: 20px 40px 40px 40px;
+}
+
+#actividades {
+    background-image: url(imagenes/no-pain-no-gain.jpg);
+}
+
+.check {
+    width:30px;
+    height:20px;
+    border: 10px solid black;
+    background-color: black;
+}
+
+.casilla {
+    width: 350px;
+    height: 30px;
+    border-radius: 80px;
+    font-size: 15px;
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+    border-radius: 80px;
+}
+
+input:focus {
+    background-color: #7b2cbf;
+    
+}
+
+textarea:focus {
+    background-color: #7b2cbf;
+    color: #10002b;
+}
+
+.boxes {
+    color: black;
+    text-align: start;
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+#obligatorio {
+    color: black;
+    text-align: start;
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+button {
+    background-color: #011627;
+    color: #a5c0b5;
+    font-family: "Jockey One", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid  #a5c0b5;
+    border-radius: 80px;
+    width: 180px;
+    margin: 20px;
+}
