@@ -1,4 +1,4 @@
-body {
+/* body {
     background: linear-gradient(#212529, #343a40, #495057, #6c757d);
 
 }
@@ -60,7 +60,7 @@ fieldset {
     padding: 20px 40px 40px 40px;
 }
 
-#actividades {
+.actividades {
     background-image: url(imagenes/no-pain-no-gain.jpg);
 }
 
@@ -121,4 +121,4 @@ button {
     border-radius: 80px;
     width: 180px;
     margin: 20px;
-}
+} */

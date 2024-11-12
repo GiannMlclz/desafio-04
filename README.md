@@ -39,11 +39,20 @@ Algunas de las etiquetas utilizadas
 https://validator.w3.org/
 ```
 
-### link a github del primer diseño
+### link a github
 
 ```sh
-https://github.com/GiannMlclz/desafio-04-estilo-1
+https://github.com/GiannMlclz/desafio-04
 ```
 
 ### Finalizados los diseños restantes subimos a github
 
+```sh
+git push origin main
+```
+
+## Link a Netlify
+
+```sh
+https://desafio-04-afiliacion.netlify.app/
+```
